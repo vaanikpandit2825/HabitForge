@@ -13,7 +13,8 @@ class _AddHabitScreenState extends State<AddHabitScreen>
   final TextEditingController _controller = TextEditingController();
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) 
+  {
     return Scaffold(
       appBar: AppBar(title: const Text('Add New Habit')),
       body: Padding(
@@ -43,5 +44,6 @@ class _AddHabitScreenState extends State<AddHabitScreen>
     );
   }
 }
+
 
 
