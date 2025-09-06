@@ -59,7 +59,8 @@ Future<void> scheduleDailyReminder() async
   );
 }
 
-tz.TZDateTime _nextInstanceOfEightAM() {
+tz.TZDateTime _nextInstanceOfEightAM() 
+{
   final tz.TZDateTime now = tz.TZDateTime.now(tz.local);
   tz.TZDateTime scheduledDate =
       tz.TZDateTime(tz.local, now.year, now.month, now.day, 8);
@@ -170,5 +171,6 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
