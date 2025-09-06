@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class GenderSelectionScreen extends StatelessWidget {
+class GenderSelectionScreen extends StatelessWidget
+{
   const GenderSelectionScreen({super.key});
 
   Future<void> _selectGender(BuildContext context, String gender) async {
@@ -91,3 +92,4 @@ class GenderSelectionScreen extends StatelessWidget {
     );
   }
 }
+
