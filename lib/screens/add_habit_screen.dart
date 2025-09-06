@@ -8,7 +8,8 @@ class AddHabitScreen extends StatefulWidget
   State<AddHabitScreen> createState() => _AddHabitScreenState();
 }
 
-class _AddHabitScreenState extends State<AddHabitScreen> {
+class _AddHabitScreenState extends State<AddHabitScreen> 
+{
   final TextEditingController _controller = TextEditingController();
 
   @override
@@ -42,4 +43,5 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
     );
   }
 }
+
 
