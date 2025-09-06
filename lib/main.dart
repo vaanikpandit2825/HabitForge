@@ -10,7 +10,8 @@ import 'package:timezone/timezone.dart' as tz;
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
 
-Future<void> main() async {
+Future<void> main() async
+{
   WidgetsFlutterBinding.ensureInitialized();
 
   // Timezone setup for notifications
@@ -168,3 +169,4 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
