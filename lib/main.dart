@@ -33,7 +33,8 @@ Future<void> main() async
 }
 
 // Schedule daily notification at 8 AM
-Future<void> scheduleDailyReminder() async {
+Future<void> scheduleDailyReminder() async
+{
   const AndroidNotificationDetails androidDetails = AndroidNotificationDetails(
     'habit_reminder_channel',
     'Habit Reminders',
@@ -169,4 +170,5 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
