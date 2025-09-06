@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AddHabitScreen extends StatefulWidget {
+class AddHabitScreen extends StatefulWidget
+{
   const AddHabitScreen({super.key});
 
   @override
@@ -41,3 +42,4 @@ class _AddHabitScreenState extends State<AddHabitScreen> {
     );
   }
 }
+
