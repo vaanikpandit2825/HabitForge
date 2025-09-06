@@ -7,6 +7,7 @@ class GenderSelectionScreen extends StatelessWidget
 
   Future<void> _selectGender(BuildContext context, String gender) async {
     final prefs = await SharedPreferences.getInstance();
+    
     await prefs.setString('gender', gender);
 
     // After saving gender → navigate to HomeScreen
@@ -92,4 +93,5 @@ class GenderSelectionScreen extends StatelessWidget
     );
   }
 }
+
 
