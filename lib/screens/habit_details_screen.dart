@@ -23,7 +23,8 @@ class HabitDetailsScreen extends StatelessWidget
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) 
+  {
     final weeklyData = _getWeeklyData();
     return Scaffold(
       appBar: AppBar(title: Text('${habit.name} Details')),
@@ -49,6 +50,7 @@ class HabitDetailsScreen extends StatelessWidget
     );
   }
 }
+
 
 
 
