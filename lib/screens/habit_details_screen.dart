@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'habit.dart';
 import 'habit_progress_chart.dart';
 
-class HabitDetailsScreen extends StatelessWidget 
-{
+class HabitDetailsScreen extends StatelessWidget{
   final Habit habit;
   const HabitDetailsScreen({super.key, required this.habit});
 
@@ -50,6 +49,7 @@ class HabitDetailsScreen extends StatelessWidget
     );
   }
 }
+
 
 
 
