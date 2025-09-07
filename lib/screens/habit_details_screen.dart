@@ -7,7 +7,8 @@ class HabitDetailsScreen extends StatelessWidget
   final Habit habit;
   const HabitDetailsScreen({super.key, required this.habit});
 
-  List<int> _getWeeklyData() {
+  List<int> _getWeeklyData()
+  {
     final now = DateTime.now();
     List<int> data = [];
     for (int i = 6; i >= 0; i--)
@@ -48,5 +49,6 @@ class HabitDetailsScreen extends StatelessWidget
     );
   }
 }
+
 
 
