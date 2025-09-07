@@ -6,7 +6,6 @@ import 'screens/home_screen.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
-// Initialize notifications
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
 
@@ -172,6 +171,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
