@@ -13,7 +13,6 @@ Future<void> main() async
 {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Timezone setup for notifications
   tz.initializeTimeZones();
 
   // Android initialization
@@ -171,6 +170,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
