@@ -23,7 +23,6 @@ Future<void> main() async
 
   await flutterLocalNotificationsPlugin.initialize(initializationSettings);
 
-  // Schedule daily 8 AM notification
   await scheduleDailyReminder();
 
   runApp(const HabitApp());
@@ -169,6 +168,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
