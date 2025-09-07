@@ -9,7 +9,8 @@ class HabitDetailsScreen extends StatelessWidget {
   List<int> _getWeeklyData() {
     final now = DateTime.now();
     List<int> data = [];
-    for (int i = 6; i >= 0; i--) {
+    for (int i = 6; i >= 0; i--)
+    {
       final day = DateTime(now.year, now.month, now.day - i);
       data.add(habit.history.any((d) =>
               d.year == day.year && d.month == day.month && d.day == day.day)
@@ -46,3 +47,4 @@ class HabitDetailsScreen extends StatelessWidget {
     );
   }
 }
+
