@@ -44,7 +44,7 @@ Future<void> scheduleDailyReminder() async
   await flutterLocalNotificationsPlugin.zonedSchedule(
     0,
     'Habit Hero Reminder',
-    'Don’t forget to complete your habits today! 💪',
+    'Don’t forget to complete your habits today!',
     _nextInstanceOfEightAM(),
     platformDetails,
     androidAllowWhileIdle: true,
@@ -122,17 +122,17 @@ class _HabitAppState extends State<HabitApp> {
     } else if (_gender == "female") {
       return ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: const Color(0xFF8C00FF), // Neon Purple
+        scaffoldBackgroundColor: const Color(0xFF8C00FF), 
         colorScheme: const ColorScheme.dark(
           primary: Color(0xFF8C00FF),
-          secondary: Color(0xFFFF4081), // Neon Pink
+          secondary: Color(0xFFFF4081),
         ),
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFFFF4081),
           foregroundColor: Colors.white,
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Color(0xFFFFC107), // Neon Gold
+          backgroundColor: Color(0xFFFFC107), 
           foregroundColor: Colors.black,
         ),
         cardTheme: CardThemeData(
@@ -165,6 +165,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
