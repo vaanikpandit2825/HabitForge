@@ -90,7 +90,6 @@ class _HabitAppState extends State<HabitApp> {
 
   ThemeData _getTheme() {
     if (_gender == "male") {
-      // Batman Theme 🦇
       return ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
@@ -167,6 +166,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
