@@ -15,7 +15,6 @@ Future<void> main() async
 
   tz.initializeTimeZones();
 
-  // Android initialization
   const AndroidInitializationSettings initializationSettingsAndroid =
       AndroidInitializationSettings('@mipmap/ic_launcher');
 
@@ -170,6 +169,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
