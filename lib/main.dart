@@ -120,7 +120,6 @@ class _HabitAppState extends State<HabitApp> {
         ),
       );
     } else if (_gender == "female") {
-      // Wonder Woman Theme 💜🔥
       return ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: const Color(0xFF8C00FF), // Neon Purple
@@ -166,6 +165,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
