@@ -5,8 +5,7 @@ class GenderSelectionScreen extends StatelessWidget
 {
   const GenderSelectionScreen({super.key});
 
-  Future<void> _selectGender(BuildContext context, String gender) async 
-  {
+  Future<void> _selectGender(BuildContext context, String gender) async{
     final prefs = await SharedPreferences.getInstance();
     
     await prefs.setString('gender', gender);
@@ -95,6 +94,7 @@ class GenderSelectionScreen extends StatelessWidget
     );
   }
 }
+
 
 
 
