@@ -142,7 +142,7 @@ class _HabitAppState extends State<HabitApp>{
         ),
         textTheme: const TextTheme(
           bodyLarge:
-              TextStyle(color: Colors.white, fontWeight: FontWeight.bol),
+              TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           bodyMedium: TextStyle(color: Colors.white70),
         ),
       );
@@ -161,6 +161,7 @@ class _HabitAppState extends State<HabitApp>{
     );
   }
 }
+
 
 
 
