@@ -78,7 +78,7 @@ class _HabitAppState extends State<HabitApp>{
     _loadGender();
   }
 
-  Future<void> _loadGender() async {
+  Future<void> _loadGender() async{
     final prefs = await SharedPreferences.getInstance();
     setState(() {
       _gender = prefs.getString('gender');
@@ -162,6 +162,7 @@ class _HabitAppState extends State<HabitApp>{
     );
   }
 }
+
 
 
 
