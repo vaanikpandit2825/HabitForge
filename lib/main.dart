@@ -152,8 +152,7 @@ class _HabitAppState extends State<HabitApp>{
   }
 
   @override
-  Widget build(BuildContext context) 
-  {
+  Widget build(BuildContext context){
     return MaterialApp(
       title: 'Habit Hero',
       debugShowCheckedModeBanner: false,
@@ -162,6 +161,7 @@ class _HabitAppState extends State<HabitApp>{
     );
   }
 }
+
 
 
 
