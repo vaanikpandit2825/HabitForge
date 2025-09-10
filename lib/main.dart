@@ -85,7 +85,7 @@ class _HabitAppState extends State<HabitApp>{
     });
   }
 
-  ThemeData _getTheme() {
+  ThemeData _getTheme(){
     if (_gender == "male") {
       return ThemeData(
         brightness: Brightness.dark,
@@ -162,6 +162,7 @@ class _HabitAppState extends State<HabitApp>{
     );
   }
 }
+
 
 
 
