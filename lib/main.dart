@@ -62,7 +62,7 @@ tz.TZDateTime _nextInstanceOfEightAM(){
   return scheduledDate;
 }
 
-class HabitApp extends StatefulWidget {
+class HabitApp extends StatefulWidget{
   const HabitApp({super.key});
 
   @override
@@ -162,6 +162,7 @@ class _HabitAppState extends State<HabitApp>{
     );
   }
 }
+
 
 
 
