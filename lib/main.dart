@@ -69,7 +69,7 @@ class HabitApp extends StatefulWidget {
   State<HabitApp> createState() => _HabitAppState();
 }
 
-class _HabitAppState extends State<HabitApp> {
+class _HabitAppState extends State<HabitApp>{
   String? _gender;
 
   @override
@@ -162,6 +162,7 @@ class _HabitAppState extends State<HabitApp> {
     );
   }
 }
+
 
 
 
