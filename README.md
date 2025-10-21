@@ -14,10 +14,6 @@ Statistics Dashboard: Analyze your habits with detailed charts and progress repo
 
 User-Friendly Interface: Clean and intuitive UI for smooth habit management.
 
-Screenshots 📸
-
-Add screenshots here to showcase your app interface and key features.
-
 Tech Stack 🛠️
 
 Frontend: Flutter
